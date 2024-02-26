@@ -1,6 +1,9 @@
 image:
   file: .gitpod.Dockerfile
 
+tasks:
+  - init: ./stow.sh
+
 vscode:
   extensions:
     - ms-azuretools.vscode-docker
