@@ -1,4 +1,4 @@
 #!/usr/bin/env bash
 
-stow -t ~/ */ || (stow -t ~/ --adopt */ && git reset --hard && stow -t ~/ */)
+stow -t ~/ neovim || (stow -t ~/ --adopt neovim && git reset --hard && stow -t ~/ neovim)
 
