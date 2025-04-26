@@ -13,8 +13,8 @@ RUN brew install \
 # additional packages needed in neovim with this configuration
 # (tree is just to inspect folders, not needed by neovim)
 RUN sudo install-packages \
-    fzf \
+	fzf \
 	ripgrep \
 	stow \
 	npm \
-    tree
+	tree
