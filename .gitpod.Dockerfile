@@ -1,9 +1,10 @@
 # You can find the new timestamped tags here: https://hub.docker.com/r/gitpod/workspace-full/tags
-FROM gitpod/workspace-full:2024-02-19-11-51-41
+FROM gitpod/workspace-full:2025-04-16-08-49-20
 
 # Install packages that are not in the Ubuntu repos
 # the version in Ubuntu repos is too old for lazy.vim
 # shellcheck is not available at all in Ubuntu repos
+RUN brew update
 RUN brew install \
 	neovim \
 	shellcheck
